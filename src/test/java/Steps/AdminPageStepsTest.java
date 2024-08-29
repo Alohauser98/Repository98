@@ -38,7 +38,9 @@ public class AdminPageStepsTest extends BaseClass {
 
 		Thread.sleep(8000);
 
+		getDriver().close();
 		getDriver().quit();
+		
 	}
 
 }
